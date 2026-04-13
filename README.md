@@ -28,8 +28,11 @@ Opinions, predictions, and subjective assessments are skipped.
 
 ## Install
 
+Clone from GitHub:
+
 ```bash
-claude skill install --path /path/to/fact-checker
+git clone https://github.com/cykbennie/fact-checker.git
+cp -r fact-checker ~/.claude/skills/
 ```
 
 Or manually copy the `fact-checker/` directory into `~/.claude/skills/`:
