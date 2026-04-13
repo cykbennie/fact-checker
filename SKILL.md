@@ -59,7 +59,7 @@ Verify each claim against sources:
    - **Low** — Weak evidence, conflicting sources, or source has unclear authority
 
 5. **Document findings**:
-   - The source used for verification
+   - The source used for verification — include the full URL for web sources (e.g. `https://example.com/article`) or the file name for user-provided documents (e.g. `annual-report-2025.pdf`). Every source entry must be traceable: the reader should be able to open the URL or locate the file directly.
    - Any problems identified
    - Suggested correction (if applicable)
 
@@ -81,8 +81,8 @@ Create a Markdown report with this structure:
 
 | # | Claim | Type | Status | Confidence | Source |
 |---|-------|------|--------|------------|--------|
-| 1 | [claim text] | Numerical | Correct | High | [source] |
-| 2 | [claim text] | Quote | Incorrect | High | [source] |
+| 1 | [claim text] | Numerical | Correct | High | [URL or filename] |
+| 2 | [claim text] | Quote | Incorrect | High | [URL or filename] |
 
 ---
 
@@ -95,7 +95,7 @@ Create a Markdown report with this structure:
 **Type:** [Numerical data / Quote / Citation / Factual claim]
 **Status:** [Correct / Incorrect / Partially correct / Unverifiable]
 **Confidence:** [High / Medium / Low]
-**Source:** [where verified]
+**Source:** [full URL for web sources — e.g. https://example.com/page | file name for user-provided sources — e.g. report.pdf]
 
 **Problem:** [description of issue, if any]
 
